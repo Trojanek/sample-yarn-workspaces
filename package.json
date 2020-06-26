@@ -1,0 +1,11 @@
+{
+  "name": "sample-monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "jobboard": "yarn workspace @jj/jobboard start",
+    "brands": "yarn workspace @jj/brands dev"
+  }
+}
